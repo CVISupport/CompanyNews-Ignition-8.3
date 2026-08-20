@@ -32,7 +32,8 @@ Nothing else. No database, no internet connection, no cloud account.
 3. Select `CompanyNews-<version>.modl` and install it.
 4. Accept the module certificate if prompted. CompanyNews is signed by Central Valley Ignition.
 
-The module starts immediately — no gateway restart.
+**Restart the gateway.** Ignition 8.3 requires it for any module install or upgrade; the module
+will not run until you do.
 
 To confirm it is running, open:
 
