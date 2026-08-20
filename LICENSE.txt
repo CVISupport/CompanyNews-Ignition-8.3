@@ -1,0 +1,272 @@
+CompanyNews
+End User License Agreement
+
+Central Valley Ignition
+Version 1.0
+
+IMPORTANT: This is a DRAFT prepared for review. It has not been reviewed by an
+attorney. Have counsel review it before offering the Software for sale.
+
+-------------------------------------------------------------------------------
+0. NOT A LIFE-SAFETY SYSTEM
+-------------------------------------------------------------------------------
+
+READ THIS SECTION FIRST.
+
+The Software can display an "emergency slide" on connected screens when a
+gateway tag changes value. THIS IS A CONVENIENCE FEATURE FOR DISPLAYING
+INFORMATION. IT IS NOT A FIRE ALARM, NOT AN EMERGENCY NOTIFICATION SYSTEM, NOT A
+MASS NOTIFICATION SYSTEM, AND NOT A LIFE-SAFETY SYSTEM OF ANY KIND. It is not
+listed, certified, or tested to UL 864, UL 2572, NFPA 72, or any comparable
+standard.
+
+The Software depends on components outside its control and outside Central
+Valley Ignition's control, including the Ignition gateway, the tag provider and
+its PLCs, the site network, the display hardware, and the web browser on each
+screen. Any of these can fail, disconnect, or be powered off without warning. A
+screen can be blank, frozen, showing a stale image, or switched off at the
+moment it matters most.
+
+DO NOT USE THE SOFTWARE AS A PRIMARY OR SECONDARY MEANS OF WARNING PEOPLE OF
+FIRE, EVACUATION, CHEMICAL RELEASE, ACTIVE THREAT, OR ANY OTHER CONDITION WHERE
+FAILURE TO RECEIVE THE WARNING COULD RESULT IN INJURY OR DEATH. Emergency
+notification must be provided by systems designed, listed, installed, and
+maintained for that purpose. Any emergency slide is supplementary information
+only.
+
+By installing or using the Software, you accept sole responsibility for ensuring
+that appropriate, code-compliant life-safety systems are in place and that no
+person is instructed to rely on the Software for safety-critical warnings.
+
+-------------------------------------------------------------------------------
+1. AGREEMENT
+-------------------------------------------------------------------------------
+
+This End User License Agreement ("Agreement") is between Central Valley Ignition
+("CVI", "we", "us") and the individual or entity that installs or uses the
+CompanyNews module for Inductive Automation's Ignition platform, together with
+its documentation and any updates ("Software") ("you", "Licensee").
+
+By installing, copying, activating, or using the Software, you agree to this
+Agreement. If you do not agree, do not install or use the Software, and remove
+it from any gateway on which it is installed.
+
+-------------------------------------------------------------------------------
+2. LICENSE GRANT
+-------------------------------------------------------------------------------
+
+2.1 Grant. Subject to this Agreement and to payment of the applicable fees, CVI
+grants you a non-exclusive, non-transferable, non-sublicensable license to
+install and use the Software on the Ignition gateway installation(s) identified
+by the license key(s) issued to you, for your internal business purposes.
+
+2.2 Per-gateway scope. A license key is issued against a specific gateway
+installation identifier, or is issued as a multi-gateway key where CVI has
+expressly agreed to that. A key issued for one gateway installation does not
+license any other gateway installation.
+
+2.3 Unlicensed use. The Software runs without a license key at reduced capacity
+and displays a CVI notice slide. Unlicensed use is permitted for evaluation and
+is subject to this Agreement in full, including the disclaimers and limitations
+below. Unlicensed use is not permitted as a permanent substitute for purchasing
+a license where the Software is used in production.
+
+2.4 Screens. A license does not limit the number of screens that display
+content from a licensed gateway, unless CVI states otherwise in writing.
+
+-------------------------------------------------------------------------------
+3. RESTRICTIONS
+-------------------------------------------------------------------------------
+
+You may not, and may not permit any third party to:
+
+(a) distribute, resell, rent, lease, lend, or host the Software for the benefit
+    of any third party, except that a system integrator may install the Software
+    on an end customer's gateway under a license key issued for that gateway;
+
+(b) share, publish, or transfer a license key, or use a key on a gateway
+    installation for which it was not issued;
+
+(c) modify, translate, or create derivative works of the Software;
+
+(d) reverse engineer, decompile, or disassemble the Software, except to the
+    extent that applicable law expressly permits it despite this limitation;
+
+(e) circumvent, disable, or interfere with the Software's license validation,
+    capacity limits, or notice slide, or assist anyone else in doing so;
+
+(f) remove or obscure any proprietary notice in the Software; or
+
+(g) use the Software in violation of applicable law.
+
+-------------------------------------------------------------------------------
+4. OWNERSHIP
+-------------------------------------------------------------------------------
+
+The Software is licensed, not sold. CVI and its licensors retain all right,
+title, and interest in and to the Software, including all intellectual property
+rights. You retain all right, title, and interest in the content you upload,
+configure, or display through the Software. CVI claims no rights in that content
+and does not receive, transmit, or store it.
+
+-------------------------------------------------------------------------------
+5. LICENSE KEYS, OFFLINE VALIDATION, AND PRIVACY
+-------------------------------------------------------------------------------
+
+5.1 Offline by design. License keys are self-contained signed tokens. The
+Software validates a key locally on your gateway. It does not contact CVI or any
+other server to activate, validate, or maintain a license, and it does not
+transmit telemetry, usage data, or your content anywhere.
+
+5.2 No revocation. Because validation is entirely offline, an issued key cannot
+be revoked or remotely disabled. A key remains valid on its gateway for its term
+regardless of any dispute. This is a deliberate trade in favour of gateways on
+air-gapped networks.
+
+5.3 Expiry. A key may carry an expiry date. On expiry, the Software continues to
+run at unlicensed capacity, as described in section 2.3. It does not stop serving
+content, and it does not delete anything you have configured.
+
+5.4 Gateway identifier. The Software generates a random identifier for the
+gateway installation on first run and stores it locally. It contains no personal
+information and is used solely to bind a key to an installation. You provide it
+to CVI when ordering.
+
+-------------------------------------------------------------------------------
+6. YOUR RESPONSIBILITIES
+-------------------------------------------------------------------------------
+
+6.1 Access control. The Software's administrative HTTP routes are reachable
+without gateway authentication by design, so that the editor works inside a
+Perspective session. YOU ARE RESPONSIBLE FOR RESTRICTING ACCESS to the gateway
+and to the views that embed the Software's components, using Ignition project
+security and your own network controls. CVI is not responsible for content
+placed on your screens by anyone able to reach your gateway.
+
+6.2 Content. You are responsible for everything displayed through the Software,
+including whether you hold the rights to it and whether it is lawful and
+appropriate for your workplace.
+
+6.3 Backups. Media uploaded to the Software is stored on the gateway filesystem
+OUTSIDE the Ignition data directory, so that it does not bloat gateway backups.
+A CONSEQUENCE IS THAT AN IGNITION GATEWAY BACKUP (.gwbk) DOES NOT CONTAIN YOUR
+SLIDES OR IMAGES. You are responsible for backing up the Software's media
+directory and slide library separately. See the documentation.
+
+6.4 Load. The Software can display Perspective views that you build. Each screen
+showing such a slide runs its own view instance, with its own bindings and
+queries. You are responsible for the load those views place on your gateway and
+databases.
+
+-------------------------------------------------------------------------------
+7. SUPPORT AND UPDATES
+-------------------------------------------------------------------------------
+
+CVI may provide updates, fixes, and support at its discretion. Nothing in this
+Agreement obliges CVI to provide any update, fix, or support, or to maintain
+compatibility with any future version of Ignition, unless CVI has agreed
+otherwise in a separate written agreement. Updates provided to you are governed
+by this Agreement unless accompanied by different terms.
+
+-------------------------------------------------------------------------------
+8. WARRANTY DISCLAIMER
+-------------------------------------------------------------------------------
+
+THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY
+KIND. TO THE MAXIMUM EXTENT PERMITTED BY LAW, CVI DISCLAIMS ALL WARRANTIES,
+EXPRESS, IMPLIED, OR STATUTORY, INCLUDING ANY IMPLIED WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.
+CVI DOES NOT WARRANT THAT THE SOFTWARE WILL BE UNINTERRUPTED, ERROR-FREE, OR
+THAT ANY PARTICULAR CONTENT WILL BE DISPLAYED ON ANY PARTICULAR SCREEN AT ANY
+PARTICULAR TIME.
+
+Some jurisdictions do not allow the exclusion of implied warranties, so some of
+the above may not apply to you.
+
+-------------------------------------------------------------------------------
+9. LIMITATION OF LIABILITY
+-------------------------------------------------------------------------------
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW:
+
+9.1 CVI WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL,
+EXEMPLARY, OR PUNITIVE DAMAGES, OR FOR LOST PROFITS, LOST REVENUE, LOST DATA,
+BUSINESS INTERRUPTION, OR COST OF SUBSTITUTE GOODS OR SERVICES, ARISING OUT OF
+OR RELATED TO THE SOFTWARE, HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, EVEN
+IF CVI HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+9.2 CVI'S TOTAL AGGREGATE LIABILITY ARISING OUT OF OR RELATED TO THE SOFTWARE
+WILL NOT EXCEED THE AMOUNT YOU ACTUALLY PAID CVI FOR THE SOFTWARE IN THE TWELVE
+(12) MONTHS PRECEDING THE EVENT GIVING RISE TO THE CLAIM.
+
+9.3 The limitations in this section apply regardless of whether a remedy fails
+of its essential purpose. They do not apply to liability that cannot be limited
+or excluded under applicable law, including liability for death or personal
+injury caused by negligence, or for fraud.
+
+9.4 You acknowledge that the fees for the Software reflect this allocation of
+risk, and that CVI would not license the Software on these terms without it.
+
+-------------------------------------------------------------------------------
+10. TERM AND TERMINATION
+-------------------------------------------------------------------------------
+
+10.1 This Agreement takes effect when you first install or use the Software and
+continues until terminated.
+
+10.2 It terminates automatically if you materially breach it, in particular
+section 3 (Restrictions).
+
+10.3 On termination you must stop using the Software and remove it from every
+gateway on which you have installed it. Sections 4, 5.2, 6, 8, 9, 10.3, and 11
+survive termination.
+
+10.4 Termination does not, by itself, disable any issued key. See section 5.2.
+
+-------------------------------------------------------------------------------
+11. GENERAL
+-------------------------------------------------------------------------------
+
+11.1 Governing law. This Agreement is governed by the laws of the State of
+California, excluding its conflict-of-laws rules. The exclusive venue for any
+dispute is the state and federal courts located in Merced County, California,
+and each party consents to that jurisdiction.
+
+11.2 Export. You will comply with all applicable export control and sanctions
+laws.
+
+11.3 Government use. The Software is "commercial computer software" as defined
+in applicable US federal regulations, and is provided to US Government end users
+with only those rights granted to all other end users under this Agreement.
+
+11.4 Assignment. You may not assign this Agreement without CVI's prior written
+consent, except to a successor of your entire business, provided the assignee
+agrees to this Agreement in full.
+
+11.5 Entire agreement. This Agreement is the entire agreement between the
+parties about the Software and supersedes any prior or contemporaneous
+understanding. A separate written agreement signed by CVI prevails over this
+Agreement to the extent of any conflict.
+
+11.6 Severability and waiver. If any provision is held unenforceable, it will be
+modified to the minimum extent necessary to make it enforceable, and the rest
+remains in effect. A failure to enforce any provision is not a waiver of it.
+
+-------------------------------------------------------------------------------
+12. THIRD-PARTY COMPONENTS
+-------------------------------------------------------------------------------
+
+The Software runs on and integrates with Inductive Automation's Ignition
+platform, which is licensed separately by Inductive Automation and is not
+provided under this Agreement. CVI is not affiliated with or endorsed by
+Inductive Automation. "Ignition" and "Perspective" are trademarks of their
+respective owners.
+
+The Software's browser components use React, licensed under the MIT License.
+
+-------------------------------------------------------------------------------
+CONTACT
+-------------------------------------------------------------------------------
+
+Central Valley Ignition
+Support@CentralValleyIgnition.com
