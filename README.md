@@ -40,12 +40,10 @@ so it works on an air-gapped network.
 ## Installing
 
 Download the `.modl` from [Releases](../../releases), then **Config → Modules → Install or Upgrade a
-Module** in the gateway web interface. Ignition 8.3 needs a gateway restart before the module runs —
-that's true of any module install or upgrade, not just this one, so plan it for a quiet moment.
+Module** in the gateway web interface. Ignition 8.3 needs a gateway restart before the module runs.
 
-After that you drop two components onto Perspective views — one for the TVs, one for whoever manages
-the content — and point a screen at it. That part is in [docs/INSTALL.md](docs/INSTALL.md), along
-with emergency tags, ticker values, backups and a troubleshooting table.
+After that you drop two or more components onto Perspective views — One is for editing so you can setup one url for lets say your HR department to update slides. 
+Then you can setup a URL/view in the project for each department with each component's screenKey set to the department name found in the editor. 
 
 ## Licensing
 
