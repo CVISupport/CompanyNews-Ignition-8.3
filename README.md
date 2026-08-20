@@ -5,6 +5,8 @@ your plant, and manage it from inside Perspective.
 
 Made by [Central Valley Ignition](https://www.centralvalleyignition.com).
 
+![A slide playing, with the corner clock and the department ticker along the bottom](docs/images/slideshow.png)
+
 ## What it does
 
 Upload an image, pick which departments see it, set how long it stays up. That's the basic loop.
