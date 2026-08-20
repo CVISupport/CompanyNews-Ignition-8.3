@@ -44,8 +44,14 @@ so it works on an air-gapped network.
 Download the `.modl` from [Releases](../../releases), then **Config → Modules → Install or Upgrade a
 Module** in the gateway web interface. Ignition 8.3 needs a gateway restart before the module runs.
 
-After that you drop two or more components onto Perspective views — One is for editing so you can setup one url for lets say your HR department to update slides. 
-Then you can setup a URL/view in the project for each department with each component's screenKey set to the department name found in the editor. 
+After that you drop two or more components onto Perspective views. One is the editor, so you can give
+HR (say) a single URL where they manage slides. Then you set up a view for each department, with that
+component's `screenKey` set to the department name from the editor.
+
+![The News Editor: slide list, duration and transition, scheduling, and the departments that can see each slide](docs/images/editor.png)
+
+Full setup — emergency trigger tags, ticker tag values, backups, redundancy and a troubleshooting
+table — is in [docs/INSTALL.md](docs/INSTALL.md).
 
 ## Licensing
 
