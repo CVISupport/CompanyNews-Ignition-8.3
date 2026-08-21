@@ -3,9 +3,7 @@ End User License Agreement
 
 Central Valley Ignition
 Version 1.0
-
-IMPORTANT: This is a DRAFT prepared for review. It has not been reviewed by an
-attorney. Have counsel review it before offering the Software for sale.
+Effective 2026-08-19
 
 -------------------------------------------------------------------------------
 0. NOT A LIFE-SAFETY SYSTEM
@@ -229,7 +227,7 @@ survive termination.
 
 11.1 Governing law. This Agreement is governed by the laws of the State of
 California, excluding its conflict-of-laws rules. The exclusive venue for any
-dispute is the state and federal courts located in Merced County, California,
+dispute is the state and federal courts located in Fresno County, California,
 and each party consents to that jurisdiction.
 
 11.2 Export. You will comply with all applicable export control and sanctions
